@@ -1,0 +1,54 @@
+:root {
+  --mainColour: #3058a2;
+  --secColour: #c9b55a;
+}
+
+.addBabbleTitle {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    color: var(--mainColour);
+  }
+  
+  .addBabbleContainer {
+    background-color: whitesmoke;
+    text-align: center;
+    color: var(--mainColour);
+    margin-top: 40px;
+    width: 70%;
+    padding: 5% 10%;
+    margin: 60px auto;
+    border-radius: 5px;
+  }
+  
+.addUsername{
+  color: var(--mainColour);
+}
+
+.addUsernameFrame{
+border: 1px solid var(--secColour);
+}
+
+.addUsernameFrame:hover{
+border: 1px solid var(--mainColour);
+}
+
+.addBrbljanje{
+  color: var(--mainColour);
+}
+
+.addBrbljanjeFrame{
+border: 1px solid var(--secColour);
+height: 60px;
+width: 200px;
+}
+
+.addBrbljanjeFrame:hover{
+  border: 1px solid var(--mainColour);
+  }
+
+.addBabbleButton {
+    margin-top: 30px;
+  }
+  

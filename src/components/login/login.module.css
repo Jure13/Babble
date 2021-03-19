@@ -1,0 +1,85 @@
+:root {
+    --mainColour: #3058a2;
+    --secColour: #c9b55a;
+}
+
+.logIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--mainColour);
+}
+
+.please{
+    color: var(--secColour);
+    font-size: 30px;
+    margin-bottom: 30px;
+    right:45%;
+    left:40%;
+}
+
+.userInput{
+    border: 1px solid var(--secColour);
+    border-radius: 5px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.userInput:hover{
+    background-color: var(--secColour);
+    transition: all 0.5s ease;
+}
+
+.username{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 10px;
+    right:45%;
+    left:40%;
+}
+
+.passInput{
+    border: 1px solid var(--secColour);
+    border-radius: 5px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.passInput:hover{
+    background-color: var(--secColour);
+    transition: all 0.5s ease;
+}
+
+.password{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 10px;
+    right:45%;
+    left:40%;
+}
+
+.submit{
+  background-color: var(--mainColour);
+  color: var(--secColour);
+  margin-top: 10px;
+  width: 50%;
+  padding: 5% 10%;
+  margin: 30px auto;
+  border: var(--secColour) outset;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.submit:hover{
+    background-color: var(--secColour);
+    color: whitesmoke;
+    border: whitesmoke outset;
+    transition: all 0.5s ease;
+}

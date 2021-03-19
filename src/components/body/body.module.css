@@ -1,0 +1,46 @@
+:root {
+    --mainColour: #3058a2;
+    --secColour: #c9b55a;
+  }
+
+.titleContainer{
+    border-bottom: 3px solid var(--secColour);
+    background-color: var(--secColour);
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    color: var(--mainColour);
+}
+
+.babblesContainer {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.babbleContainer {
+    border: 1px solid var(--mainColour);
+    border-radius: 5px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.babblePersonal {
+    color: var(--mainColour);
+    width: 10%;
+}
+
+.babbleImage {
+    width: 100%;
+}
+
+.babbleEmail {
+    margin-bottom: 20px;
+}
+
+.babbleBody {
+    width: 60%;
+    margin: auto 0px;
+}

@@ -1,0 +1,123 @@
+:root {
+    --mainColour: #3058a2;
+    --secColour: #c9b55a;
+  }
+  
+.mainHeader {
+    background-color: var(--mainColour);
+}
+
+.innerHeaderContainer {
+    background: url('/cover.png');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: 69vh;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+    border-bottom: 1px white solid;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient(135deg, #05c5ff21 10%, #08d8fd2c 10%);
+    border-radius: 0 0 85% 85% / 30%;
+    min-height: 50vh;
+}
+
+.headerTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 37px;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0px;
+    right:45%;
+    left:40%;
+    color: var(--mainColour);    
+}
+
+.babbleNaslov{
+    color:var(--secColour);
+}
+
+
+.primaryNavigation {
+    background-color: var(--mainColour);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* border-radius: 0 0 85% 85% / 30%;*/
+    position: sticky;
+    top: -1px;
+    transition: all 0.2s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.primaryNavigation ul {
+    display: flex;
+}
+
+.primaryNavigation ul li {
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid var(--secColour);
+    padding: 0 45px;
+    position: relative;
+}
+
+.primaryNavigation ul li:first-of-type {
+    border-left: none;
+}
+
+.primaryNavigation li a {
+    color: #e7b0099f;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.primaryNavigation li a:hover {
+    color: var(--secColour);
+}
+
+.primaryNavigation ul li ul {
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    background: var(--mainColour);
+}
+
+.primaryNavigation ul li:hover>ul,
+.primaryNavigation ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    min-width: 250px;
+    padding-top: 20px;
+}
+
+.primaryNavigation ul li ul li {
+    margin-bottom: 20px;
+}
+
+.primaryNavigation ul li ul li a {
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.primaryNavigation ul li ul li a:hover {
+    padding-left: 10px;
+    border-left: 2px solid var(--secColour);
+}

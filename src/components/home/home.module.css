@@ -1,0 +1,180 @@
+:root {
+    --mainColour: #3058a2;
+    --secColour: #c9b55a;
+  }
+
+.mainContainer{
+    border-bottom: 2px var(--secColour) inset;
+}
+  
+.innerContainer1 {
+    background: url('/1.png');
+    background-color: var(--mainColour);
+    text-align: center;
+    width: 100%;
+    height: 300px;     
+    background-size: 33vh;
+    /*background-attachment: fixed;*/
+    position: relative;
+    overflow: hidden;
+    /*border-radius: 0 0 85% 85% / 30%;*/
+    border-bottom: 2px var(--mainColour) outset;
+}
+
+
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient(135deg, #05c5ff21 10%, #08d8fd2c 10%);
+    border-radius: 0 0 85% 85% / 30%;
+    min-height: 50vh;
+}
+
+.headerTitle {
+    font-family: 'Mali', cursive;
+    font-size: 35px;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0px;
+    right:45%;
+    left:40%;
+    color: var(--mainColour);    
+}
+
+.babbleNaslov{
+    color:var(--secColour);
+}
+
+.innerContainer2 {
+    background: url('/2.png');
+    background-color: var(--mainColour);
+    text-align: center;
+    width: 100%;
+    height: 300px;     
+    background-size: 58vh;
+    /*background-attachment: fixed;*/
+    position: relative;
+    overflow: hidden;
+    /*border-radius: 0 0 85% 85% / 30%;*/
+    border-bottom: 2px var(--mainColour) outset;
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+   /* text-shadow: 1px 1px 1px #333;*/
+    background-image: linear-gradient(135deg, #05c5ff21 10%, #08d8fd2c 10%);
+    border-radius: 0 0 85% 85% / 30%;
+    min-height: 50vh;
+}
+
+.middleTitle {
+    font-family: 'Calibri', cursive;
+    font-size: 33px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 10px;
+    right:5%;
+    left:5%;
+    color: var(--mainColour);    
+}
+
+.innerContainer3 {
+    background: url('/4.png');
+    background-color: var(--mainColour);
+    text-align: center;
+    width: 100%;
+    height: 200px;     
+    background-size: 58vh;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px var(--mainColour) outset;
+}
+
+.overlay3 {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    background-image: linear-gradient(135deg, #05c5ff21 10%, #08d8fd2c 10%);
+    border-radius: 0 0 85% 85% / 30%;
+    min-height: 50vh;
+}
+.bottomTitle {
+    font-family: cursive;
+    font-size: 33px;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 30px;
+    right:5%;
+    left:5%;
+    color: rgba(102, 13, 13, 0.753);     
+}
+
+.innerContainer4 {
+    background-color: rgba(255, 255, 255, 0.966);
+    text-align: center;
+    width: 100%;
+    height: 200px;     
+    background-size: 58vh;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px var(--mainColour) outset;
+}
+
+.overlay4 {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    background-image: linear-gradient(135deg, #05c5ff21 10%, #08d8fd2c 10%);
+    border-radius: 0 0 85% 85% / 30%;
+    min-height: 50vh;
+}
+
+.socialMediaList {
+    list-style: none;
+    padding: 0;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;*/
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    justify-content: space-around;
+    
+  }
+  .socialMediaLinks {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid var(--mainColour);;
+    border-radius: 50%;
+    color: var(--mainColour);;
+    font-size: 30px;
+    transition: all 0.5s ease;
+  }
+  .socialMediaLinks:hover {
+    background-color: var(--mainColour);
+    border: 2px dashed var(--secColour);;
+    color: var(--secColour);;
+  }
+  
+.footerTitle {
+    font-family: 'Mali' italic;
+    font-size: 20px;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 5px;
+    right:5%;
+    left:5%;
+    color: rgba(102, 13, 13, 0.753);     
+}
