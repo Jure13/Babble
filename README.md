@@ -1,3 +1,6 @@
+A typescript project which allows the user to post comments/posts on a forum.
+Internal database is used.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
